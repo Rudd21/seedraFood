@@ -1,0 +1,126 @@
+* {
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+.text-nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.nav-list {
+    color: #70737C;
+    list-style-type: none;
+    border-right: 3px solid #EFEFEF;
+    padding-right: 15px;
+}
+
+.header-main {
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.search-block {
+    display: flex;
+    align-content: center;
+    border-radius: 71px;
+    border: 3px solid #EFEFEF;
+    height: 25px;
+    padding: 10px;
+    img {
+        align-content: center;
+    }
+    input {
+        border: none;
+        color: #70737C;
+    }
+}
+
+#poriadok {
+    border: none;
+}
+
+.filt {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 71px;
+    p {
+        font-size: 14px;
+        color: #70737C;
+    }
+}
+
+.more-filt {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.products-filt {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.sort0 {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.sort-item {
+    display: flex;
+    border: 1px solid lightgrey;
+    height: 25px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    img {
+        width: 28px;
+        height: 28px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.product {
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    padding: 10px;
+}
